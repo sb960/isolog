@@ -1,0 +1,45 @@
+.container {
+    padding: 2rem;
+    text-align: center;
+  }
+
+/* ul {
+    list-style: none;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+  } */
+
+.logoutButton {
+    padding: 0.75rem 1.5rem;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+.logoutButton:hover {
+    background: #bb2d3b;
+  }
+
+/* Add these new styles */
+.navButtons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+.navButton {
+    padding: 0.75rem 1.5rem;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+.navButton:hover {
+    background: #0056b3;
+  }
