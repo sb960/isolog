@@ -76,3 +76,141 @@
     color: #6c757d;
     font-size: 0.875rem;
   }
+
+/* Add these new styles */
+.weightInput {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.weightInput input[type="number"] {
+  flex: 1;
+  max-width: 150px;
+}
+
+.workoutColumns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.categoryColumn {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.categoryColumn h3 {
+  margin-top: 0;
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+}
+
+.deleteButton {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  color: #dc3545;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0 0.5rem;
+}
+
+.deleteButton:hover {
+  color: #bb2d3b;
+}
+
+.workoutItem {
+  position: relative;
+  background: black;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  border-left: 4px solid #007bff;
+}
+
+.weightGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.5rem;
+}
+
+.setWeight {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.setWeight label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.weightBadge {
+  display: inline-block;
+  background: #e9ecef;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.searchBar {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.searchBar input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.workoutGroup {
+  margin-bottom: 2rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.workoutHeader {
+  border-bottom: 2px solid #007bff;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.setList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.setItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.repsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.setReps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
